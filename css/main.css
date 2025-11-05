@@ -82,11 +82,12 @@ footer .content-wrapper {
 @media (min-width: 768px) {
 
   header .content-wrapper {
-    /* Add Flexbox properties to move the h1 to the left at the start of the content-wrapper */
+    justify-content: flex-start;
   }
 
   article .content-wrapper {
-    /* Add Flexbox properties so that the extra space in the content-wrapper is around the child items and align them at their centers */
+    justify-content: space-around;
+    align-items: center;
   }
 
   .profile-image-container {
